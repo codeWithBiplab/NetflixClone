@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #000;
+    max-width: 100%;
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    margin: 0px 0px 0px -16px;
+   background-color: #0b0000;
+   display: flex;
+   justify-content: space-between;
+   font-family: sans-serif;
+}
+.logo {
+    height: 40px;
+    width: 270px;
+    margin: 0px 0px 0px 16px;
+
+}
+.logoimg img {
+    background-image: url("pic/Netflix_Logo.png");
+    height: 7rem;
+    width: 14.5rem;
+    margin-top: 0px;
+    margin-left: 16px;
+}
+.logorest {
+    width:18rem;
+    height:8rem;
+    margin: 0px 0px 0px -12px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+}
+#select {
+    width: 7rem;
+    height: 3rem;
+   color: white;
+   filter: opacity(100%);
+    border-radius: 57px;
+    font-weight: bolder;
+    line-height: 0.25rem;
+    padding-top: 0.4rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.6rem;
+    align-items: center;
+    margin-top: 30px;
+   
+    
+    background: transparent;
+    margin-right: 20px;
+    
+    
+}
+   
+
+.signin {
+    background-color: white;
+    border-radius: calc(100px - 0.0625rem);
+    width: 76px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-color: rgba(0, 0, 0, 0);
+    bottom: 0;
+    top: 0;left: 0;right: 0;
+    font-weight: bolder;
+    border-style: solid;
+    margin-top: 30px;
+    
+    
+}
+.secprt {
+    height: 80px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+/**herosection**/
+.herosection img {
+    width: 97%;
+    height: 685px;
+    background-size: cover;
+    z-index: 1.8;
+    opacity: 50%;
+    border-left: 6px solid white;
+    border-top:6px solid white ;
+    border-radius: 40px;
+    position: relative;
+    
+}
+.herosection {
+    background-color: #000;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+
+}
+.text {
+    filter: opacity(100%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute; /* Position text absolutely */
+    top: 50%; /* Move down to the center */
+    left: 50%; /* Move right to the center */
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    
+
+
+    
+}
+span {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+/**emailsection**/
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.ready {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+#email {
+    width:370px;
+    height: 26px;
+    padding: 1rem 1rem 1rem;
+    font-size: 1rem;
+    background: transparent;
+    order: 0 solid transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 45px;
+    margin-right: 10px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+
+#button {
+    width: 202px;
+    height: 56px;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: calc(100px - 0.0625rem);
+    border-color: rgba(0, 0, 0, 0);
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 900;
+    cursor: pointer;
+}
+
+/**movies**/
+.trending {
+
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 140px;
+    
+    position: relative;
+    
+}
+#india {
+    line-height: 1.5;
+    padding-top: 0.5rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.5rem;
+    padding-left: calc(0.75rem + 1.5rem + 0.5rem);
+    filter: opacity(100%);
+    color: white;
+    padding-right: 12px;
+    border: 1px solid rgba(91, 103, 91, 0.678);
+    filter: opacity(100%);
+    font-weight: bold;
+    font-family: sans-serif;
+    align-items: center;
+    border-radius: 1rem;
+    margin-right: 30px;
+    
+}
+#movies {
+    line-height: 1.5;
+    padding-top: 0.5rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.5rem;
+    padding-left: calc(0.75rem + 1.5rem + 0.5rem);
+    filter: opacity(100%);
+    color: white;
+    padding-right: 12px;
+    border: 1px solid rgba(91, 103, 91, 0.678);
+    background: transparent;
+    color: white;
+    background-color: #000;
+    filter : opacity(100%);
+    font-weight: bold;
+    font-family: sans-serif;
+    align-items: center;
+    border-radius: 1rem;
+
+
+}
+#now {
+    font-size: 20px;
+}
+
+.fa-solid fa-earth-americas {
+    color: white;
+    font-weight: bold;
+    
+    
+}
+.movies {
+    height: 55%;
+    width: 70%;
+    display: flex;
+}
+
+.first {
+    padding: 12.8px 30px 12.8px 364px;
+    width: 168px;
+    height: 261px;
+}
+.sec {
+    width: 168px;
+    height: 261px;
+    padding: 12.8px 30px;
+}
+.thi {
+    width: 168px;
+    height: 261px;
+    padding: 12.8px 30px;
+}
+.fou {
+    width: 168px;
+    height: 261px;
+    padding: 12.8px 30px;
+}
+.fiv {
+    width: 168px;
+    height: 261px;
+    padding: 12.8px 30px;
+}
+.six {
+    width: 168px;
+    height: 261px;
+    padding: 12.8px ;
+}
+img {
+    width: 228px;
+    height: 356px;
+    border-radius: 1rem;
+}
+.questions {
+
+    width: 835px;
+    height: 550px;
+    margin-top: 99px;
+}
+.qsn {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 24px;
+    font-size: 14px;
+
+
+}
+.qsn1 {
+    display: flex;
+    justify-content: space-between;width: 832px;height: 72px;padding: 24px;
+    background-color: #484444;
+    border: 2px solid ;
+    margin-top: 25px;
+    border-radius: 1rem;
+    margin-left: 30px;
+    align-items: center;
+    
+}
+.qsn2 {
+    display: flex;
+    justify-content: space-between;width: 832px;height: 72px;padding: 24px;
+    background-color: #484444;
+    order: 2px solid ;
+    margin-top: 25px;
+    border-radius: 1rem;
+    margin-left: 30px;
+    ;align-items: center;
+}
+.qsn3 {
+    display: flex;
+    justify-content: space-between;width: 832px;height: 72px;padding: 24px;
+    background-color: #484444;
+    order: 2px solid ;
+    margin-top: 25px;
+    border-radius: 1rem;
+    margin-left: 30px;
+    align-items: center;
+}
+.qsn5 {
+    display: flex;
+    justify-content: space-between;width: 832px;height: 72px;padding: 24px;
+    background-color: #484444;
+    order: 2px solid ;
+    margin-top: 25px;
+    border-radius: 1rem;
+    margin-left: 30px;
+    align-items: center;
+}
+.qsn4 {
+    display: flex;
+    justify-content: space-between;width: 832px;height: 72px;padding: 24px;
+    background-color: #484444;
+    order: 2px solid ;
+    margin-top: 25px;
+    border-radius: 1rem;
+    margin-left: 30px;
+    align-items: center;
+}
+.qsn6 {
+    display: flex;
+    justify-content: space-between;width: 832px;height: 72px;padding: 24px;
+    background-color: #484444;
+    order: 2px solid ;
+    margin-top: 25px;
+    border-radius: 1rem;
+    margin-left: 30px;
+    align-items: center;
+}
+.questions span {
+    font-size: 24px;
+    background-color: #484444;
+    
+}
+.lastbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.lastxt p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+/**copyright**/
+
+.end p {
+    color: white;
+    font-size: 20px;
+    margin-left: 365px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.endli {
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    
+    color: rgb(253, 249, 249);
+}
+li {
+    list-style: none;
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.last {
+    margin-top: 35%;
+}
+.lan{
+    margin-left: 365px;
+    width: 12rem;
+   padding: 9px 6px 10px 2px;
+   
+
+}
+.netflix {
+    margin-top: 50px;
+
+}
+.netflix p {
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
